@@ -1,5 +1,3 @@
-package students;
-
 public class BinaryTree {
 	static class Node {
     	int value;
@@ -7,7 +5,7 @@ public class BinaryTree {
         Node left;
 
         Node(int value) {
-        	this.value = value;
+            this.value = value;
             this.right = null;
             this.left = null;
         }

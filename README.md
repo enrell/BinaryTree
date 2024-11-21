@@ -1,12 +1,8 @@
-# BinaryTree
-<br>
-# A classe BinaryTree possui uma classe interna Node que representa um nó na árvore. Cada nó tem um valor inteiro, um nó esquerdo e um nó direito. Também possui um campo Node chamado 'root' que representa a raiz da árvore. Ela também possui um método privado 'insert' que recebe um Node e um valor inteiro e insere o valor na árvore através no Node definido. Se o Node for nulo, ela cria um novo Node com o valor definido. Se o valor for menor que o valor do Node atual, ela insere o valor no nó esquerdo. Caso contrário, insere o valor no nó direito.
-<br>
-<br>
-# O método público 'insert' chama o método privado 'insert', passando o nó raiz e o valor a ser inserido.
-<br>
-<br>
-# O método privado 'search' recebe um Node e um valor inteiro, e procura o valor na árvore começando no Node definido. Ele retorna 'true' se o valor for encontrado e 'false' caso contrário. O método público chamado 'search' chama o método privado 'search', passando o nó raiz e o valor a ser pesquisado.
-<br>
-<br>
-# O método público 'reset' chama um método privado 'reset', passando no nó raiz. O método 'reset' privado é recursivo e define todos os nós da árvore como 'null', excluindo-os.
+# Simple BinaryTree
+The BinaryTree class has an internal Node class that represents a node in the tree. Each node has an integer value, a left node and a right node. It also has a Node field called 'root' that represents the root of the tree. It also has a private 'insert' method that receives a Node and an integer value and inserts the value into the tree through the defined Node. If the Node is null, it creates a new Node with the defined value. If the value is less than the value of the current Node, it inserts the value in the left node. Otherwise, insert the value into the right node.
+
+The public method 'insert' calls the private method 'insert', passing the root node and the value to be inserted.
+
+The private method 'search' receives a Node and an integer value, and searches the tree for the value starting at the defined Node. It returns 'true' if the value is found and 'false' otherwise. The public method called 'search' calls the private method 'search', passing the root node and the value to be searched.
+
+The public method 'reset' calls a private method 'reset', passing in the root node. The private 'reset' method is recursive and sets all nodes in the tree to 'null', deleting them.
